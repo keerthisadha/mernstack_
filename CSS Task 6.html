@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CSS Task 6</title>
+        <style type="text/css">
+            img{
+                border-radius: 50%;
+                width:60%;
+                margin:0% 40% 0%;
+            }
+            body{
+                margin:0% 40% 0%;
+            }
+            
+            a:link{
+                color:black;
+            }
+            form label{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            #submit{
+                background-color: rgb(40, 155, 40);
+                color: white;
+                width:335px;
+                height: 35px;
+            }
+            #cancel{
+                background-color: red;
+                color: white;
+                border-radius: 5px;
+            }
+            table tr, td{
+                height:40px;
+                background-color: white;
+   
+                border-color: rgb(235, 231, 231);
+                border-spacing: 0;
+                padding: 0;
+                border-width: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <img src="avatar.png"/><br><br>
+
+            <label for="username">Username</label><br>
+            <input type="text" name="username" id="username" placeholder="Enter Username" size="45"/><br><br>
+    
+            <label for="pswrd">Password</label><br>
+            <input type="password" name="pswrd" id="pswrd" placeholder="Enter Password" size="45"/><br><br>
+
+            <input type="submit" id="submit" value="Login" size ="45"/><br>
+
+            <input type="checkbox" class="checkbox" checked/> Remember me <br><br>
+
+            <table width="350">
+                <tr>
+                    <td align="left"><input type="reset" id="cancel" value="Cancel"/> </td>
+                    <td align="right"><a href="#">Forgot password?</a></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

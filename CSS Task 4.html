@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CSS Task 4</title>
+        <style type="text/css">
+            #buttons a {
+                position: absolute;
+                left: -80px;
+                transition: 0.3s;
+                padding: 15px;
+                width: 100px;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                border-radius: 0 5px;
+            }
+            #buttons a:hover{
+                left: 0;
+            }
+
+            #about {
+                top: 20px;
+                background-color: rgb(23, 205, 74);
+            }
+
+            #blog {
+                top: 80px;
+                background-color: rgb(28, 166, 221);
+            }
+            #projects {
+                top: 140px;
+                background-color: rgb(255, 89, 89);
+            }
+            #contact {
+                top: 200px;
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="margin-left: 100px;">
+            <h2>Hoverable Sidenav Buttons</h2>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+        <div id="buttons">
+            <a href="#" id="about">About</a>
+            <a href="#" id="blog">Blog</a>
+            <a href="#" id="projects">Projects</a>
+            <a href="#" id="contact">Contact</a>
+        </div>
+    </body>
+</html>
